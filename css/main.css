@@ -1,0 +1,89 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#nav {
+	/* IMG DO FUNDO DO SITE */
+	background: url(../imagens/bodyfundo1.jpg);
+	/* Full Page img*/
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	/* serve para centralizar a imagem */
+  	background-attachment: fixed;
+  	background-position: justify;
+
+}
+
+/* NAVBAR CONFG */
+#navbar {	
+	font-family: arial;
+	color: white;
+	background: linear-gradient( #14050B,#83040D);
+    
+ }
+ #navbar:hover {
+ 	color: red;
+    transition: 1s;
+   
+ }
+  
+  /* CAROUSEL */
+ #carouselExampleFade {
+ 	width: 800px;
+ 	margin-left: 25%;
+
+
+ }
+
+/* TEXTOS */
+h1 {
+	color: white;
+/* e pra centralizar o textos */
+	text-align: center;
+}
+ /* o p e o paragrafo do site */
+p {
+	color: white;
+	/* deixa o texto centralizado */ 
+	text-align: center;
+	/* add uma margin interna*/
+	padding: 50px;
+
+}
+/* CARDS COR DA LETRA */
+.card-text{
+	color: #0D0D0D;
+	text-align: center;
+}
+
+/* confg da img do personagem */
+#pg {
+	text-align: center;
+/* margem para esquerda */
+	margin-left: 410px;
+/* largura */
+	width: 100%;
+/* altura*/
+	height: 500px;
+
+}
+
+/* CONFG do jogo que esta no site*/
+#px {
+	margin-left: 10px;
+
+}
+
+/* H1 E H2 confg dos textos */
+#hh {
+	text-align: center;
+	color: red;
+
+}
+
+#rodape {
+	/* e pra misturar  a cor do rodape */
+     background: linear-gradient( #83040D,#14050B);
+    
+}
